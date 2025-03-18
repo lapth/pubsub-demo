@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Client, IMessage } from 'iframe-pubsub';
-import React from 'react';
 
 // ⭐️⭐️⭐️ Step 1: Define you page id, should be the same one returned by your callback API
 const pageId = 'calendar';
